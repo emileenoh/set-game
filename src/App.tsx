@@ -22,8 +22,11 @@ function App() {
           </ul>
           <p>Goals: learning TS (interfaces, types, react), learning the "backend of the frontend" (hooks, side effects, etc)</p>
         </div>
-        <SetCard count={Count.One} shape={Shape.Diamond} color={Color.Red} shading={Shading.Empty}></SetCard>
-
+        <div className="card-grid">
+          <SetCard count={Count.One} shape={Shape.Oval} color={Color.Purple} shading={Shading.Empty}></SetCard>
+          <SetCard count={Count.Two} shape={Shape.Oval} color={Color.Red} shading={Shading.Solid}></SetCard>
+          <SetCard count={Count.Two} shape={Shape.Oval} color={Color.Green} shading={Shading.Striped}></SetCard>
+        </div>
       </header>
     </div>
   );
