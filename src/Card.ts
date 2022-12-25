@@ -5,7 +5,7 @@ export enum Count {
 }
 
 export enum Shape {
-    Squiggle = "squiggle",
+    Rectangle = "Rectangle",
     Oval = "oval",
     Diamond = "diamond",
 }
