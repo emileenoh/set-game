@@ -12,9 +12,8 @@ function App() {
             <p><strong>Goals:</strong> learning TS (interfaces, types, react), learning the "backend of the frontend" (hooks, side effects, etc)</p>
             <strong>Things to work on:</strong>
             <ul>
-                <li>Write a function to say "is this a set or not?"</li>
+                <li>(In progress - logic.ts) Write a function to say "is this a set or not?"</li>
                 <li>Write a function to generate every card</li>
-                <li>Testing</li>
             </ul>
         </div>
       <div className="card-grid">
